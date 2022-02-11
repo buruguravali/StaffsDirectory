@@ -31,6 +31,12 @@
 		043ECA8827B6C58700C6C424 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA8327B6C58700C6C424 /* RoomsViewController.swift */; };
 		043ECA8927B6C58700C6C424 /* RoomsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA8427B6C58700C6C424 /* RoomsTableViewCell.swift */; };
 		043ECA8A27B6C58700C6C424 /* RoomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA8527B6C58700C6C424 /* RoomsViewModel.swift */; };
+		043ECA8E27B6C79800C6C424 /* PeopleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA8C27B6C79800C6C424 /* PeopleDetailsViewController.swift */; };
+		043ECA8F27B6C79800C6C424 /* PeopleDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA8D27B6C79800C6C424 /* PeopleDetailsViewModel.swift */; };
+		043ECA9527B6CC4100C6C424 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA9127B6CC4100C6C424 /* AppCoordinator.swift */; };
+		043ECA9627B6CC4100C6C424 /* RoomsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA9227B6CC4100C6C424 /* RoomsCoordinator.swift */; };
+		043ECA9727B6CC4100C6C424 /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA9327B6CC4100C6C424 /* CoordinatorType.swift */; };
+		043ECA9827B6CC4100C6C424 /* PeoplesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA9427B6CC4100C6C424 /* PeoplesCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +85,12 @@
 		043ECA8327B6C58700C6C424 /* RoomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
 		043ECA8427B6C58700C6C424 /* RoomsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsTableViewCell.swift; sourceTree = "<group>"; };
 		043ECA8527B6C58700C6C424 /* RoomsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsViewModel.swift; sourceTree = "<group>"; };
+		043ECA8C27B6C79800C6C424 /* PeopleDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleDetailsViewController.swift; sourceTree = "<group>"; };
+		043ECA8D27B6C79800C6C424 /* PeopleDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleDetailsViewModel.swift; sourceTree = "<group>"; };
+		043ECA9127B6CC4100C6C424 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		043ECA9227B6CC4100C6C424 /* RoomsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsCoordinator.swift; sourceTree = "<group>"; };
+		043ECA9327B6CC4100C6C424 /* CoordinatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
+		043ECA9427B6CC4100C6C424 /* PeoplesCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeoplesCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +141,7 @@
 		043ECA3627B6A3B400C6C424 /* StaffsDirectory */ = {
 			isa = PBXGroup;
 			children = (
+				043ECA9027B6C8B800C6C424 /* Coordinator */,
 				043ECA7427B6B20F00C6C424 /* Modules */,
 				043ECA6727B6AEFF00C6C424 /* ApiService */,
 				043ECA3727B6A3B400C6C424 /* AppDelegate.swift */,
@@ -183,6 +196,7 @@
 		043ECA7527B6B21B00C6C424 /* People */ = {
 			isa = PBXGroup;
 			children = (
+				043ECA8B27B6C77F00C6C424 /* PeopleDetails */,
 				043ECA7927B6C28800C6C424 /* People.swift */,
 				043ECA7A27B6C28800C6C424 /* PeopleResponce.swift */,
 				043ECA7627B6C28700C6C424 /* PeoplesViewController.swift */,
@@ -202,6 +216,26 @@
 				043ECA8527B6C58700C6C424 /* RoomsViewModel.swift */,
 			);
 			path = Rooms;
+			sourceTree = "<group>";
+		};
+		043ECA8B27B6C77F00C6C424 /* PeopleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				043ECA8C27B6C79800C6C424 /* PeopleDetailsViewController.swift */,
+				043ECA8D27B6C79800C6C424 /* PeopleDetailsViewModel.swift */,
+			);
+			path = PeopleDetails;
+			sourceTree = "<group>";
+		};
+		043ECA9027B6C8B800C6C424 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				043ECA9127B6CC4100C6C424 /* AppCoordinator.swift */,
+				043ECA9327B6CC4100C6C424 /* CoordinatorType.swift */,
+				043ECA9427B6CC4100C6C424 /* PeoplesCoordinator.swift */,
+				043ECA9227B6CC4100C6C424 /* RoomsCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,14 +370,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				043ECA6B27B6AF3E00C6C424 /* ServiceError.swift in Sources */,
+				043ECA8E27B6C79800C6C424 /* PeopleDetailsViewController.swift in Sources */,
 				043ECA7327B6AFDB00C6C424 /* ImageCacher.swift in Sources */,
+				043ECA9627B6CC4100C6C424 /* RoomsCoordinator.swift in Sources */,
 				043ECA7127B6AFBF00C6C424 /* ImageDownloader.swift in Sources */,
+				043ECA9727B6CC4100C6C424 /* CoordinatorType.swift in Sources */,
 				043ECA8927B6C58700C6C424 /* RoomsTableViewCell.swift in Sources */,
+				043ECA9827B6CC4100C6C424 /* PeoplesCoordinator.swift in Sources */,
 				043ECA8827B6C58700C6C424 /* RoomsViewController.swift in Sources */,
+				043ECA9527B6CC4100C6C424 /* AppCoordinator.swift in Sources */,
 				043ECA3827B6A3B400C6C424 /* AppDelegate.swift in Sources */,
 				043ECA7E27B6C28800C6C424 /* People.swift in Sources */,
 				043ECA3A27B6A3B400C6C424 /* SceneDelegate.swift in Sources */,
 				043ECA7C27B6C28800C6C424 /* PeoplesViewModel.swift in Sources */,
+				043ECA8F27B6C79800C6C424 /* PeopleDetailsViewModel.swift in Sources */,
 				043ECA7B27B6C28800C6C424 /* PeoplesViewController.swift in Sources */,
 				043ECA6927B6AF2400C6C424 /* Servicable.swift in Sources */,
 				043ECA6F27B6AF6F00C6C424 /* EndPoint.swift in Sources */,
