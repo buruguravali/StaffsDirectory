@@ -12,7 +12,6 @@
 		043ECA3F27B6A3B400C6C424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043ECA3D27B6A3B400C6C424 /* Main.storyboard */; };
 		043ECA4127B6A3B600C6C424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043ECA4027B6A3B600C6C424 /* Assets.xcassets */; };
 		043ECA4427B6A3B600C6C424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043ECA4227B6A3B600C6C424 /* LaunchScreen.storyboard */; };
-		043ECA4F27B6A3B700C6C424 /* StaffsDirectoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA4E27B6A3B700C6C424 /* StaffsDirectoryTests.swift */; };
 		043ECA5927B6A3B700C6C424 /* StaffsDirectoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA5827B6A3B700C6C424 /* StaffsDirectoryUITests.swift */; };
 		043ECA5B27B6A3B700C6C424 /* StaffsDirectoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA5A27B6A3B700C6C424 /* StaffsDirectoryUITestsLaunchTests.swift */; };
 		043ECA6927B6AF2400C6C424 /* Servicable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA6827B6AF2400C6C424 /* Servicable.swift */; };
@@ -37,6 +36,12 @@
 		043ECA9627B6CC4100C6C424 /* RoomsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA9227B6CC4100C6C424 /* RoomsCoordinator.swift */; };
 		043ECA9727B6CC4100C6C424 /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA9327B6CC4100C6C424 /* CoordinatorType.swift */; };
 		043ECA9827B6CC4100C6C424 /* PeoplesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA9427B6CC4100C6C424 /* PeoplesCoordinator.swift */; };
+		043ECAA027B6D05700C6C424 /* people_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 043ECA9A27B6D05700C6C424 /* people_success_response.json */; };
+		043ECAA127B6D05700C6C424 /* rooms_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 043ECA9B27B6D05700C6C424 /* rooms_success_response.json */; };
+		043ECAA227B6D05700C6C424 /* failure_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 043ECA9C27B6D05700C6C424 /* failure_response.json */; };
+		043ECAA327B6D05700C6C424 /* PeopleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA9D27B6D05700C6C424 /* PeopleViewModelTests.swift */; };
+		043ECAA427B6D05700C6C424 /* RoomsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA9E27B6D05700C6C424 /* RoomsViewModelTests.swift */; };
+		043ECAA527B6D05700C6C424 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA9F27B6D05700C6C424 /* MockNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +70,6 @@
 		043ECA4327B6A3B600C6C424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043ECA4527B6A3B600C6C424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043ECA4A27B6A3B700C6C424 /* StaffsDirectoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaffsDirectoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		043ECA4E27B6A3B700C6C424 /* StaffsDirectoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsDirectoryTests.swift; sourceTree = "<group>"; };
 		043ECA5427B6A3B700C6C424 /* StaffsDirectoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaffsDirectoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043ECA5827B6A3B700C6C424 /* StaffsDirectoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsDirectoryUITests.swift; sourceTree = "<group>"; };
 		043ECA5A27B6A3B700C6C424 /* StaffsDirectoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsDirectoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -91,6 +95,12 @@
 		043ECA9227B6CC4100C6C424 /* RoomsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsCoordinator.swift; sourceTree = "<group>"; };
 		043ECA9327B6CC4100C6C424 /* CoordinatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
 		043ECA9427B6CC4100C6C424 /* PeoplesCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeoplesCoordinator.swift; sourceTree = "<group>"; };
+		043ECA9A27B6D05700C6C424 /* people_success_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = people_success_response.json; sourceTree = "<group>"; };
+		043ECA9B27B6D05700C6C424 /* rooms_success_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rooms_success_response.json; sourceTree = "<group>"; };
+		043ECA9C27B6D05700C6C424 /* failure_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = failure_response.json; sourceTree = "<group>"; };
+		043ECA9D27B6D05700C6C424 /* PeopleViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewModelTests.swift; sourceTree = "<group>"; };
+		043ECA9E27B6D05700C6C424 /* RoomsViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsViewModelTests.swift; sourceTree = "<group>"; };
+		043ECA9F27B6D05700C6C424 /* MockNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +167,10 @@
 		043ECA4D27B6A3B700C6C424 /* StaffsDirectoryTests */ = {
 			isa = PBXGroup;
 			children = (
-				043ECA4E27B6A3B700C6C424 /* StaffsDirectoryTests.swift */,
+				043ECA9927B6D05700C6C424 /* Json Responses */,
+				043ECA9F27B6D05700C6C424 /* MockNetworkManager.swift */,
+				043ECA9D27B6D05700C6C424 /* PeopleViewModelTests.swift */,
+				043ECA9E27B6D05700C6C424 /* RoomsViewModelTests.swift */,
 			);
 			path = StaffsDirectoryTests;
 			sourceTree = "<group>";
@@ -238,6 +251,16 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		043ECA9927B6D05700C6C424 /* Json Responses */ = {
+			isa = PBXGroup;
+			children = (
+				043ECA9A27B6D05700C6C424 /* people_success_response.json */,
+				043ECA9B27B6D05700C6C424 /* rooms_success_response.json */,
+				043ECA9C27B6D05700C6C424 /* failure_response.json */,
+			);
+			path = "Json Responses";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,6 +332,7 @@
 					};
 					043ECA4927B6A3B700C6C424 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 						TestTargetID = 043ECA3327B6A3B400C6C424;
 					};
 					043ECA5327B6A3B700C6C424 = {
@@ -352,6 +376,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043ECAA027B6D05700C6C424 /* people_success_response.json in Resources */,
+				043ECAA227B6D05700C6C424 /* failure_response.json in Resources */,
+				043ECAA127B6D05700C6C424 /* rooms_success_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +427,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043ECA4F27B6A3B700C6C424 /* StaffsDirectoryTests.swift in Sources */,
+				043ECAA527B6D05700C6C424 /* MockNetworkManager.swift in Sources */,
+				043ECAA327B6D05700C6C424 /* PeopleViewModelTests.swift in Sources */,
+				043ECAA427B6D05700C6C424 /* RoomsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +652,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -636,6 +666,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.it.mac.StaffsDirectoryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StaffsDirectory.app/StaffsDirectory";
@@ -647,6 +678,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
