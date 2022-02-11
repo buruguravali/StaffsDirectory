@@ -20,6 +20,8 @@
 		043ECA6B27B6AF3E00C6C424 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA6A27B6AF3E00C6C424 /* ServiceError.swift */; };
 		043ECA6D27B6AF5400C6C424 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA6C27B6AF5400C6C424 /* ServiceManager.swift */; };
 		043ECA6F27B6AF6F00C6C424 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA6E27B6AF6F00C6C424 /* EndPoint.swift */; };
+		043ECA7127B6AFBF00C6C424 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA7027B6AFBF00C6C424 /* ImageDownloader.swift */; };
+		043ECA7327B6AFDB00C6C424 /* ImageCacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA7227B6AFDB00C6C424 /* ImageCacher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		043ECA6A27B6AF3E00C6C424 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 		043ECA6C27B6AF5400C6C424 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 		043ECA6E27B6AF6F00C6C424 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		043ECA7027B6AFBF00C6C424 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		043ECA7227B6AFDB00C6C424 /* ImageCacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 				043ECA6A27B6AF3E00C6C424 /* ServiceError.swift */,
 				043ECA6C27B6AF5400C6C424 /* ServiceManager.swift */,
 				043ECA6E27B6AF6F00C6C424 /* EndPoint.swift */,
+				043ECA7027B6AFBF00C6C424 /* ImageDownloader.swift */,
+				043ECA7227B6AFDB00C6C424 /* ImageCacher.swift */,
 			);
 			path = ApiService;
 			sourceTree = "<group>";
@@ -280,6 +286,8 @@
 			files = (
 				043ECA6B27B6AF3E00C6C424 /* ServiceError.swift in Sources */,
 				043ECA3C27B6A3B400C6C424 /* ViewController.swift in Sources */,
+				043ECA7327B6AFDB00C6C424 /* ImageCacher.swift in Sources */,
+				043ECA7127B6AFBF00C6C424 /* ImageDownloader.swift in Sources */,
 				043ECA3827B6A3B400C6C424 /* AppDelegate.swift in Sources */,
 				043ECA3A27B6A3B400C6C424 /* SceneDelegate.swift in Sources */,
 				043ECA6927B6AF2400C6C424 /* Servicable.swift in Sources */,
