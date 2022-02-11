@@ -26,6 +26,11 @@
 		043ECA7D27B6C28800C6C424 /* PeopleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA7827B6C28800C6C424 /* PeopleTableViewCell.swift */; };
 		043ECA7E27B6C28800C6C424 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA7927B6C28800C6C424 /* People.swift */; };
 		043ECA7F27B6C28800C6C424 /* PeopleResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA7A27B6C28800C6C424 /* PeopleResponce.swift */; };
+		043ECA8627B6C58700C6C424 /* RoomsResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA8127B6C58700C6C424 /* RoomsResponce.swift */; };
+		043ECA8727B6C58700C6C424 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA8227B6C58700C6C424 /* Room.swift */; };
+		043ECA8827B6C58700C6C424 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA8327B6C58700C6C424 /* RoomsViewController.swift */; };
+		043ECA8927B6C58700C6C424 /* RoomsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA8427B6C58700C6C424 /* RoomsTableViewCell.swift */; };
+		043ECA8A27B6C58700C6C424 /* RoomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ECA8527B6C58700C6C424 /* RoomsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,11 @@
 		043ECA7827B6C28800C6C424 /* PeopleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewCell.swift; sourceTree = "<group>"; };
 		043ECA7927B6C28800C6C424 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		043ECA7A27B6C28800C6C424 /* PeopleResponce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleResponce.swift; sourceTree = "<group>"; };
+		043ECA8127B6C58700C6C424 /* RoomsResponce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsResponce.swift; sourceTree = "<group>"; };
+		043ECA8227B6C58700C6C424 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		043ECA8327B6C58700C6C424 /* RoomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		043ECA8427B6C58700C6C424 /* RoomsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsTableViewCell.swift; sourceTree = "<group>"; };
+		043ECA8527B6C58700C6C424 /* RoomsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +174,7 @@
 		043ECA7427B6B20F00C6C424 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				043ECA8027B6C57100C6C424 /* Rooms */,
 				043ECA7527B6B21B00C6C424 /* People */,
 			);
 			path = Modules;
@@ -179,6 +190,18 @@
 				043ECA7827B6C28800C6C424 /* PeopleTableViewCell.swift */,
 			);
 			path = People;
+			sourceTree = "<group>";
+		};
+		043ECA8027B6C57100C6C424 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				043ECA8227B6C58700C6C424 /* Room.swift */,
+				043ECA8127B6C58700C6C424 /* RoomsResponce.swift */,
+				043ECA8427B6C58700C6C424 /* RoomsTableViewCell.swift */,
+				043ECA8327B6C58700C6C424 /* RoomsViewController.swift */,
+				043ECA8527B6C58700C6C424 /* RoomsViewModel.swift */,
+			);
+			path = Rooms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +338,8 @@
 				043ECA6B27B6AF3E00C6C424 /* ServiceError.swift in Sources */,
 				043ECA7327B6AFDB00C6C424 /* ImageCacher.swift in Sources */,
 				043ECA7127B6AFBF00C6C424 /* ImageDownloader.swift in Sources */,
+				043ECA8927B6C58700C6C424 /* RoomsTableViewCell.swift in Sources */,
+				043ECA8827B6C58700C6C424 /* RoomsViewController.swift in Sources */,
 				043ECA3827B6A3B400C6C424 /* AppDelegate.swift in Sources */,
 				043ECA7E27B6C28800C6C424 /* People.swift in Sources */,
 				043ECA3A27B6A3B400C6C424 /* SceneDelegate.swift in Sources */,
@@ -323,8 +348,11 @@
 				043ECA6927B6AF2400C6C424 /* Servicable.swift in Sources */,
 				043ECA6F27B6AF6F00C6C424 /* EndPoint.swift in Sources */,
 				043ECA7D27B6C28800C6C424 /* PeopleTableViewCell.swift in Sources */,
+				043ECA8627B6C58700C6C424 /* RoomsResponce.swift in Sources */,
 				043ECA7F27B6C28800C6C424 /* PeopleResponce.swift in Sources */,
 				043ECA6D27B6AF5400C6C424 /* ServiceManager.swift in Sources */,
+				043ECA8727B6C58700C6C424 /* Room.swift in Sources */,
+				043ECA8A27B6C58700C6C424 /* RoomsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
